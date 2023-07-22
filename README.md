@@ -1,2 +1,3 @@
 # guessgame
-Hey i have made a number guessing game using java language. It is a very basic program and i haven't optimised it correctly gonna do it as i learn more about this language.
+as you can see below the comment 'Generating a random number' here you can select the range of numbers you want to play with.
+you can even select the size of array by changing the values under the first comment line. I have set it to 10 to have a shorter gameplay.
