@@ -15,7 +15,7 @@ public class guess {
         boolean but = true;
 
         Scanner in = new Scanner(System.in);
-
+        int count = 1;
         while(but){
 
             int g = in.nextInt();
@@ -25,12 +25,14 @@ public class guess {
         }else if(ran<g){
             System.out.println("oops!!! you guessed it wrong");
             System.out.println("Hint:The number is smaller than that");
+            count++;
         }else if(ran>g){
             System.out.println("oops!!! you guessed it wrong");
             System.out.println("Hint:The number is greater than that");
+            count++;
         }
         }
-
+        System.out.println("you took " + count + " try" );
 
     }
 }
